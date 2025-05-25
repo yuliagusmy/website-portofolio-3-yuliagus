@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="dark-mode">
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#photography">Photography</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-sun"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Yuliagus M. Yunus</span></h1>
+                <p class="subtitle">Web Developer & Designer</p>
+                <p class="description">I create beautiful and functional websites with modern technologies.</p>
+                <div class="hero-buttons">
+                    <button class="cta-button">View My Work</button>
+                    <button class="secondary-button">Download CV</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a passionate web developer with expertise in creating responsive and user-friendly websites.
+                        I love turning complex problems into simple, beautiful, and intuitive designs.</p>
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <div class="skill-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <h3>Project 1</h3>
+                    <p>A beautiful web application built with modern technologies.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Demo</a>
+                        <a href="#" class="project-link">Source Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <h3>Project 2</h3>
+                    <p>An innovative solution for real-world problems.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Demo</a>
+                        <a href="#" class="project-link">Source Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <h3>Project 3</h3>
+                    <p>A creative project showcasing unique design elements.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Demo</a>
+                        <a href="#" class="project-link">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="photography" class="photography">
+            <h2>Photography</h2>
+            <div class="photo-grid">
+                <div class="photo-card">
+                    <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=500&auto=format&fit=crop&q=60"
+                        alt="Cute cat with big eyes">
+                    <div class="photo-overlay">
+                        <p>Curious Kitty</p>
+                    </div>
+                </div>
+                <div class="photo-card">
+                    <img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=500&auto=format&fit=crop&q=60"
+                        alt="Cat wearing sunglasses">
+                    <div class="photo-overlay">
+                        <p>Cool Cat</p>
+                    </div>
+                </div>
+                <div class="photo-card">
+                    <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?w=500&auto=format&fit=crop&q=60"
+                        alt="Sleeping cat">
+                    <div class="photo-overlay">
+                        <p>Sleepy Time</p>
+                    </div>
+                </div>
+                <div class="photo-card">
+                    <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=500&auto=format&fit=crop&q=60"
+                        alt="Orange cat">
+                    <div class="photo-overlay">
+                        <p>Orange Tabby</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Get In Touch</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
