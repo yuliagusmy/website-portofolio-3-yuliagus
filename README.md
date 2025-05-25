@@ -21,13 +21,13 @@ A modern portfolio website with dark mode support, built using HTML, CSS, and Ja
 
 ## Live Demo
 
-Visit the live website: [Your GitHub Pages URL will be here]
+Visit the live website: [https://yuliagusmy.github.io/website-portofolio-3-yuliagus](https://yuliagusmy.github.io/website-portofolio-3-yuliagus)
 
 ## Setup
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/portfolio-website.git
+git clone https://github.com/yuliagusmy/website-portofolio-3-yuliagus.git
 ```
 
 2. Open `index.html` in your browser to view the website locally.
